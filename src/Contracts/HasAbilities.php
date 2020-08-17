@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Sanctum\Contracts;
+namespace MaoDK87\SanctumMongoDB;\Contracts;
 
 interface HasAbilities
 {

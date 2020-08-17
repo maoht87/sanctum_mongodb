@@ -1,9 +1,10 @@
 <?php
 
-namespace Laravel\Sanctum;
+namespace MaoDK87\SanctumMongoDB;;
 
-use Illuminate\Database\Eloquent\Model;
-use Laravel\Sanctum\Contracts\HasAbilities;
+//use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
+use MaoDK87\SanctumMongoDB;\Contracts\HasAbilities;
 
 class PersonalAccessToken extends Model implements HasAbilities
 {

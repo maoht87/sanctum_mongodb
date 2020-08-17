@@ -1,13 +1,13 @@
 <?php
 
-namespace Laravel\Sanctum\Tests;
+namespace MaoDK87\SanctumMongoDB;\Tests;
 
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use Laravel\Sanctum\HasApiTokens;
-use Laravel\Sanctum\Sanctum;
-use Laravel\Sanctum\SanctumServiceProvider;
+use MaoDK87\SanctumMongoDB;\HasApiTokens;
+use MaoDK87\SanctumMongoDB;\Sanctum;
+use MaoDK87\SanctumMongoDB;\SanctumServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class ActingAsTest extends TestCase

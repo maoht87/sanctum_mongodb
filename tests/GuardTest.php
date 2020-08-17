@@ -1,16 +1,16 @@
 <?php
 
-namespace Laravel\Sanctum\Tests;
+namespace MaoDK87\SanctumMongoDB;\Tests;
 
 use DateTimeInterface;
 use Illuminate\Contracts\Auth\Factory as AuthFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Laravel\Sanctum\Guard;
-use Laravel\Sanctum\HasApiTokens;
-use Laravel\Sanctum\PersonalAccessToken;
-use Laravel\Sanctum\SanctumServiceProvider;
+use MaoDK87\SanctumMongoDB;\Guard;
+use MaoDK87\SanctumMongoDB;\HasApiTokens;
+use MaoDK87\SanctumMongoDB;\PersonalAccessToken;
+use MaoDK87\SanctumMongoDB;\SanctumServiceProvider;
 use Mockery;
 use Orchestra\Testbench\TestCase;
 use stdClass;

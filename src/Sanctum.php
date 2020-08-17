@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Sanctum;
+namespace MaoDK87\SanctumMongoDB;;
 
 use Mockery;
 
@@ -23,7 +23,7 @@ class Sanctum
     /**
      * Set the current user for the application with the given abilities.
      *
-     * @param  \Illuminate\Contracts\Auth\Authenticatable|\Laravel\Sanctum\HasApiTokens  $user
+     * @param  \Illuminate\Contracts\Auth\Authenticatable|\MaoDK87\SanctumMongoDB;\HasApiTokens  $user
      * @param  array  $abilities
      * @param  string  $guard
      * @return \Illuminate\Contracts\Auth\Authenticatable

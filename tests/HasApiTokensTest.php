@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Sanctum\Tests;
+namespace MaoDK87\SanctumMongoDB;\Tests;
 
-use Laravel\Sanctum\HasApiTokens;
-use Laravel\Sanctum\PersonalAccessToken;
-use Laravel\Sanctum\TransientToken;
+use MaoDK87\SanctumMongoDB;\HasApiTokens;
+use MaoDK87\SanctumMongoDB;\PersonalAccessToken;
+use MaoDK87\SanctumMongoDB;\TransientToken;
 use PHPUnit\Framework\TestCase;
 
 class HasApiTokensTest extends TestCase

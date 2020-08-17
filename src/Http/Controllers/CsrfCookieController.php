@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Sanctum\Http\Controllers;
+namespace MaoDK87\SanctumMongoDB;\Http\Controllers;
 
 use Illuminate\Http\Response;
 

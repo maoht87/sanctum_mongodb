@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Sanctum;
+namespace MaoDK87\SanctumMongoDB;;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
@@ -10,7 +10,7 @@ class NewAccessToken implements Arrayable, Jsonable
     /**
      * The access token instance.
      *
-     * @var \Laravel\Sanctum\PersonalAccessToken
+     * @var \MaoDK87\SanctumMongoDB;\PersonalAccessToken
      */
     public $accessToken;
 
@@ -24,7 +24,7 @@ class NewAccessToken implements Arrayable, Jsonable
     /**
      * Create a new access token result.
      *
-     * @param  \Laravel\Sanctum\PersonalAccessToken  $accessToken
+     * @param  \MaoDK87\SanctumMongoDB;\PersonalAccessToken  $accessToken
      * @param  string  $plainTextToken
      * @return void
      */

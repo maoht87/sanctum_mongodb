@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Sanctum\Tests;
+namespace MaoDK87\SanctumMongoDB;\Tests;
 
-use Laravel\Sanctum\TransientToken;
+use MaoDK87\SanctumMongoDB;\TransientToken;
 use PHPUnit\Framework\TestCase;
 
 class TransientTokenTest extends TestCase

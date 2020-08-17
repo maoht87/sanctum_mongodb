@@ -1,14 +1,14 @@
 <?php
 
-namespace Laravel\Sanctum;
+namespace MaoDK87\SanctumMongoDB;;
 
 use Illuminate\Auth\RequestGuard;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Laravel\Sanctum\Http\Controllers\CsrfCookieController;
-use Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
+use MaoDK87\SanctumMongoDB;\Http\Controllers\CsrfCookieController;
+use MaoDK87\SanctumMongoDB;\Http\Middleware\EnsureFrontendRequestsAreStateful;
 
 class SanctumServiceProvider extends ServiceProvider
 {

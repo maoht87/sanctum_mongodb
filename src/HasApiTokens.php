@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Sanctum;
+namespace MaoDK87\SanctumMongoDB;;
 
 use Illuminate\Support\Str;
 
@@ -9,7 +9,7 @@ trait HasApiTokens
     /**
      * The access token the user is using for the current request.
      *
-     * @var \Laravel\Sanctum\Contracts\HasAbilities
+     * @var \MaoDK87\SanctumMongoDB;\Contracts\HasAbilities
      */
     protected $accessToken;
 
@@ -39,7 +39,7 @@ trait HasApiTokens
      *
      * @param  string  $name
      * @param  array  $abilities
-     * @return \Laravel\Sanctum\NewAccessToken
+     * @return \MaoDK87\SanctumMongoDB;\NewAccessToken
      */
     public function createToken(string $name, array $abilities = ['*'])
     {
@@ -55,7 +55,7 @@ trait HasApiTokens
     /**
      * Get the access token currently associated with the user.
      *
-     * @return \Laravel\Sanctum\Contracts\HasAbilities
+     * @return \MaoDK87\SanctumMongoDB;\Contracts\HasAbilities
      */
     public function currentAccessToken()
     {
@@ -65,7 +65,7 @@ trait HasApiTokens
     /**
      * Set the current access token for the user.
      *
-     * @param  \Laravel\Sanctum\Contracts\HasAbilities  $accessToken
+     * @param  \MaoDK87\SanctumMongoDB;\Contracts\HasAbilities  $accessToken
      * @return $this
      */
     public function withAccessToken($accessToken)

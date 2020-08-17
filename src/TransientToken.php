@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Sanctum;
+namespace MaoDK87\SanctumMongoDB;;
 
-use Laravel\Sanctum\Contracts\HasAbilities;
+use MaoDK87\SanctumMongoDB;\Contracts\HasAbilities;
 
 class TransientToken implements HasAbilities
 {

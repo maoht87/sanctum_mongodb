@@ -1,5 +1,5 @@
 {
-    "name": "laravel/sanctum",
+    "name": "maodk87/sanctum_mongodb",
     "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
     "keywords": ["laravel", "sanctum", "auth"],
     "license": "MIT",
@@ -18,7 +18,8 @@
         "ext-json": "*",
         "illuminate/contracts": "^6.9|^7.0",
         "illuminate/database": "^6.9|^7.0",
-        "illuminate/support": "^6.9|^7.0"
+        "illuminate/support": "^6.9|^7.0",
+        "jenssegers/mongodb": "dev-develop"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",

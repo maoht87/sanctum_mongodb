@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Sanctum\Tests;
+namespace MaoDK87\SanctumMongoDB;\Tests;
 
-use Laravel\Sanctum\PersonalAccessToken;
+use MaoDK87\SanctumMongoDB;\PersonalAccessToken;
 use PHPUnit\Framework\TestCase;
 
 class PersonalAccessTokenTest extends TestCase

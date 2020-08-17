@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Sanctum\Tests;
+namespace MaoDK87\SanctumMongoDB;\Tests;
 
 use Illuminate\Http\Request;
-use Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
-use Laravel\Sanctum\SanctumServiceProvider;
+use MaoDK87\SanctumMongoDB;\Http\Middleware\EnsureFrontendRequestsAreStateful;
+use MaoDK87\SanctumMongoDB;\SanctumServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class EnsureFrontendRequestsAreStatefulTest extends TestCase
